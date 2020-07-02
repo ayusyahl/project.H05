@@ -1,0 +1,100 @@
+/* Untuk Tablets */
+
+@media (max-width: 1000px) {
+
+  .pelajaran {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  .wadah-mentors {
+   margin-top: 350px;
+   padding-bottom: 700px;
+   margin-bottom: 0px;
+  }
+
+  .mentor {
+    width: 45%;
+    display: inline-block;
+  }
+
+  .mentor img {
+    width: 50%;
+    float: none;
+
+  }
+
+  footer {
+    font-size: 10px;
+    width: 100%;
+  }
+}
+
+/* Untuk Smartphones */
+
+/* Tambahkan breakpoint max-width: 670px */
+@media (max-width: 670px) {
+
+  .header-list ul li{
+    display: none;
+  }
+
+  .logo {
+  float: left;
+  width: 130px;
+  padding: 8px 40px 8px 0;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .pelajaran {
+    width: 100%;
+  }
+
+  .heading {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .heading h2 {
+  font-size: 22px;
+  }
+
+  .wadah-main {
+    text-align: left;
+    padding-top: 100px;
+    padding-left: 0;
+  }
+
+  .wadah-main p {
+    font-size: 14px;
+    line-height: 20px;
+    width: 100%;
+  }
+
+  .wadah-mentors {
+   margin-top: 800px;
+   padding-bottom: 600px;
+   margin-bottom: 0px;
+  }
+
+  .mentor img {
+    width: 100%;
+  }
+
+  .mentor {
+    padding: 5px 20px;
+  }
+  
+  footer {
+    text-align: center;
+    height: 100px;
+  }
+
+  .btn {
+    width: 100%;
+    text-align: center;
+  }
+}
